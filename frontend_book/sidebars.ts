@@ -57,6 +57,42 @@ const sidebars: SidebarsConfig = {
             }
           ],
         },
+        {
+          type: 'category',
+          label: 'Module 2: The Digital Twin (Gazebo & Unity)',
+          items: [
+            {
+              type: 'category',
+              label: 'Chapter 1: Simulation Fundamentals',
+              items: [
+                'robotics/module2/chapter-1-simulation-fundamentals/index',
+                'robotics/module2/chapter-1-simulation-fundamentals/physics-concepts',
+                'robotics/module2/chapter-1-simulation-fundamentals/gravity-collisions',
+                'robotics/module2/chapter-1-simulation-fundamentals/exercises'
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Chapter 2: Virtual Environments',
+              items: [
+                'robotics/module2/chapter-2-virtual-environments/index',
+                'robotics/module2/chapter-2-virtual-environments/unity-setup',
+                'robotics/module2/chapter-2-virtual-environments/environment-building',
+                'robotics/module2/chapter-2-virtual-environments/exercises'
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Chapter 3: Sensor Simulation',
+              items: [
+                'robotics/module2/chapter-3-sensor-simulation/index',
+                'robotics/module2/chapter-3-sensor-simulation/lidar-camera-imu',
+                'robotics/module2/chapter-3-sensor-simulation/ros2-integration',
+                'robotics/module2/chapter-3-sensor-simulation/exercises'
+              ],
+            }
+          ],
+        },
         'robotics/prerequisites',
         'robotics/troubleshooting',
         'robotics/references',

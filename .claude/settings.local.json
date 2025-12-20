@@ -13,7 +13,21 @@
       "Bash(powershell -Command \"Move-Item -Path ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\chapter-2-python-ros'' -Destination ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1'' -Force\")",
       "Bash(powershell -Command \"Move-Item -Path ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\chapter-3-humanoid-modeling'' -Destination ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1'' -Force\")",
       "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1\" /s)",
-      "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1\\\\chapter-1-ros2-concepts\")"
+      "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1\\\\chapter-1-ros2-concepts\")",
+      "Bash(git fetch --all --prune)",
+      "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\specs\" /ad /b)",
+      "Bash(.specify/scripts/powershell/setup-plan.ps1 -Json)",
+      "Bash(dir \".specify\" /s)",
+      "Bash(dir \".specify/scripts\" /s)",
+      "Bash(dir \".specify/scripts/powershell\")",
+      "Bash(.specify/scripts/powershell/update-agent-context.ps1 -AgentType claude)",
+      "Bash(.specify/scripts/powershell/check-prerequisites.ps1 -Json)",
+      "Bash(.specify/scripts/powershell/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks)",
+      "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\" /s)",
+      "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\" /s)",
+      "Bash(dir \"frontend_book\\\\docs\\\\robotics\\\\module2\\\\chapter-3-sensor-simulation\" /s)",
+      "Bash(npx docusaurus start --port 8080)",
+      "Bash(npx docusaurus start --port 4000)"
     ]
   }
 }
