@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\")",
+      "Bash(xcopy /E /H /Y docs\\\\robotics frontend_book\\\\docs\\\\robotics)",
+      "Bash(powershell -Command \"Copy-Item -Path ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\docs\\\\robotics'' -Destination ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs'' -Recurse -Force\")",
+      "Bash(npm run build)",
+      "Bash(move:*)",
+      "Bash(cmd /c \"move chapter-1-ros2-concepts module1\\\\\")",
+      "Bash(cmd /c \"move chapter-2-python-ros module1\\\\\")",
+      "Bash(cmd /c \"move chapter-3-humanoid-modeling module1\\\\\")",
+      "Bash(powershell -Command \"Move-Item -Path ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\chapter-1-ros2-concepts'' -Destination ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1'' -Force\")",
+      "Bash(powershell -Command \"Move-Item -Path ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\chapter-2-python-ros'' -Destination ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1'' -Force\")",
+      "Bash(powershell -Command \"Move-Item -Path ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\chapter-3-humanoid-modeling'' -Destination ''D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1'' -Force\")",
+      "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1\" /s)",
+      "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\\\\module1\\\\chapter-1-ros2-concepts\")"
+    ]
+  }
+}
