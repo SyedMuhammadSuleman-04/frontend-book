@@ -93,6 +93,69 @@ const sidebars: SidebarsConfig = {
             }
           ],
         },
+        {
+          type: 'category',
+          label: 'Module 3: The AI-Robot Brain (NVIDIA Isaac™)',
+          items: [
+            {
+              type: 'category',
+              label: 'Chapter 1: NVIDIA Isaac Sim',
+              items: [
+                'robotics/module3/chapter-1-isaac-sim/index',
+                'robotics/module3/chapter-1-isaac-sim/photorealistic-simulation',
+                'robotics/module3/chapter-1-isaac-sim/synthetic-data-generation',
+                'robotics/module3/chapter-1-isaac-sim/exercises'
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Chapter 2: Isaac ROS',
+              items: [
+                'robotics/module3/chapter-2-isaac-ros/index',
+                'robotics/module3/chapter-2-isaac-ros/vs-lam-pipelines',
+                'robotics/module3/chapter-2-isaac-ros/perception-pipelines',
+                'robotics/module3/chapter-2-isaac-ros/exercises'
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Chapter 3: Humanoid Navigation',
+              items: [
+                'robotics/module3/chapter-3-humanoid-navigation/index',
+                'robotics/module3/chapter-3-humanoid-navigation/nav2-path-planning',
+                'robotics/module3/chapter-3-humanoid-navigation/bipedal-movement',
+                'robotics/module3/chapter-3-humanoid-navigation/exercises'
+              ],
+            }
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Module 4: Vision-Language-Action (VLA)',
+          items: [
+            {
+              type: 'category',
+              label: 'Chapter 1: Voice-to-Action Pipeline',
+              items: [
+                'robotics/module4/chapter-1-voice-to-action'
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Chapter 2: Cognitive Planning for VLA',
+              items: [
+                'robotics/module4/chapter-2-cognitive-planning'
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Chapter 3: Autonomous Task Execution Pipeline',
+              items: [
+                'robotics/module4/chapter-3-autonomous-pipeline'
+              ],
+            }
+          ],
+        },
         'robotics/prerequisites',
         'robotics/troubleshooting',
         'robotics/references',

@@ -27,7 +27,15 @@
       "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\" /s)",
       "Bash(dir \"frontend_book\\\\docs\\\\robotics\\\\module2\\\\chapter-3-sensor-simulation\" /s)",
       "Bash(npx docusaurus start --port 8080)",
-      "Bash(npx docusaurus start --port 4000)"
+      "Bash(npx docusaurus start --port 4000)",
+      "Bash(.specify/scripts/bash/create-new-feature.sh --json --number 3 --short-name \"isaac-ai-brain\" --description \"Module: Module 3 – The AI-Robot Brain \\(NVIDIA Isaac™\\)\n\nAudience:\nAI and robotics students with ROS 2 and simulation basics\n\nFocus:\nAdvanced perception, navigation, and training for humanoid robots\n\nChapters:\n1. NVIDIA Isaac Sim  \n   - Photorealistic simulation and synthetic data generation  \n\n2. Isaac ROS  \n   - Hardware-accelerated VSLAM and perception pipelines  \n\n3. Humanoid Navigation  \n   - Nav2 for path planning and bipedal movement\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/create-new-feature.ps1\" -Json -Number 3 -ShortName \"isaac-ai-brain\" -Description \"Module: Module 3 – The AI-Robot Brain \\(NVIDIA Isaac™\\)\n\nAudience:\nAI and robotics students with ROS 2 and simulation basics\n\nFocus:\nAdvanced perception, navigation, and training for humanoid robots\n\nChapters:\n1. NVIDIA Isaac Sim  \n   - Photorealistic simulation and synthetic data generation  \n\n2. Isaac ROS  \n   - Hardware-accelerated VSLAM and perception pipelines  \n\n3. Humanoid Navigation  \n   - Nav2 for path planning and bipedal movement\")",
+      "Bash(grep -n \"<[0-9]\" frontend_book/docs/robotics/module3/resources/*.md)",
+      "Bash(grep -n \"[^>]>[0-9]\" frontend_book/docs/robotics/module3/resources/*.md)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/create-new-feature.ps1\" -Json -Number 4 -ShortName \"vla-integration\" -Description \"Module: Module 4 – Vision-Language-Action \\(VLA\\)\n\nAudience:\nAI and robotics students with ROS 2 and perception basics\n\nFocus:\nIntegrating language models, perception, and robot actions\n\nChapters:\n1. Voice-to-Action  \n   - Speech input using OpenAI Whisper  \n\n2. Cognitive Planning  \n   - Translating natural language into ROS 2 action sequences  \n\n3. Capstone Overview  \n   - Autonomous humanoid task execution pipeline\")",
+      "Bash(cmd /c \"dir \"\"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\frontend_book\\\\docs\\\\robotics\"\" /s\")",
+      "Bash(cmd /c \"dir \"\"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\specs\"\" /ad\")",
+      "Bash(dir \"D:\\\\Suleman\\\\spec_driven_ai\\\\Hackathon1\\\\my_latest_robotics_book\\\\specs\" /ad)"
     ]
   }
 }
